@@ -11,11 +11,13 @@ Lucy Lin, a devoted and meticulous **Master of Biostatistics** candidate from Du
 ![](https://github.com/lucylin1997/fastpage_copy/blob/master/images/SOM_logo.jpg?raw=true)
 
 **Duke University, School of Medicine**
-Master of Biostatistics    Aug,2020 - May, 2022
+
+_Master of Biostatistics_   Aug,2020 - May, 2022
 Relevant courses: Introduction to Statistical Theory and Methods I and II, Applied Biostatistics Methods I and II, Introduction to Practice of Biostatistics I and II, Introduction to Statistical Programming I and II, Software Tools for Data Science.
 
 **Shanghai University of Finance and Economics**
-Information and Computing Science  Sep,2016 - Jun,2020
+
+_Information and Computing Science_  Sep,2016 - Jun,2020
 Revelent courses: Data Structure, Big Data Process, Statistical Computing, Time series Analysis, Introduction of Stochastic Processes, Differential Equations.
 
 
