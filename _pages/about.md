@@ -5,8 +5,8 @@ permalink: /about/
 ---
 ##                                                               --- My Journey ---
 
-![]
-(https://github.com/lucylin1997/fastpage_copy/blob/master/images/SOM_logo.jpg)
+![image]
+(https://github.com/lucylin1997/fastpage_copy/blob/master/images/SOM_logo.jpg?raw=true)
 # Education 
 ### Duke University, School of Medicine
 #### Master of Biostatistics
