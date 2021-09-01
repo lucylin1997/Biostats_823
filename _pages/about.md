@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ##                                                               --- My Journey ---
 ### Education
-![](https://github.com/lucylin1997/fastpage_copy/blob/master/images/SOM_logo.jpg?raw=true){:height="50%" width="60%"}
+![](https://github.com/lucylin1997/fastpage_copy/blob/master/images/SOM_logo.jpg?raw=true)
 
 **Duke University, School of Medicine**
 #### Master of Biostatistics
