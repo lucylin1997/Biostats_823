@@ -5,6 +5,7 @@ permalink: /about/
 ---
 ##                                                               --- My Journey ---
 ### Education
+<img src="https://github.com/lucylin1997/fastpage_copy/blob/master/images/SOM_logo.jpg" width="500" height="400" alt="SOM_logo"/>
 ![](https://github.com/lucylin1997/fastpage_copy/blob/master/images/SOM_logo.jpg?raw=true)
 
 **Duke University, School of Medicine**
