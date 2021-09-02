@@ -15,11 +15,11 @@ _Master of Biostatistics_   Aug,2020 - May, 2022
 
 Relevant courses: Introduction to Statistical Theory and Methods I and II, Applied Biostatistics Methods I and II, Introduction to Practice of Biostatistics I and II, Introduction to Statistical Programming I and II, Software Tools for Data Science.
 
-**<font size="6" face="Garamond">Shanghai University of Finance and Economics</font>**
+**<font size="12" face="Garamond">Shanghai University of Finance and Economics</font>**
 
-_<font size="5" face="Garamond">Information and Computing Science  Sep,2016 - Jun,2020</font>_
+_<font size="10" face="Garamond">Information and Computing Science &  Sep,2016 - Jun,2020</font>_
 
-<font size="4" face="Garamond">Revelent courses: Data Structure, Big Data Process, Statistical Computing, Time series Analysis, Introduction of Stochastic Processes, Differential Equations.</font><br/>
+<font size="8" face="Garamond">Revelent courses: Data Structure, Big Data Process, Statistical Computing, Time series Analysis, Introduction of Stochastic Processes, Differential Equations.</font><br/>
 
 
 
