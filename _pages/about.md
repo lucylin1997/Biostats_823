@@ -19,7 +19,7 @@ Relevant courses: Introduction to Statistical Theory and Methods I and II, Appli
 
 _Information and Computing Science_  Sep,2016 - Jun,2020
 
-<font size="1">Revelent courses: Data Structure, Big Data Process, Statistical Computing, Time series Analysis, Introduction of Stochastic Processes, Differential Equations.</font><br />
+<font size="5">Revelent courses: Data Structure, Big Data Process, Statistical Computing, Time series Analysis, Introduction of Stochastic Processes, Differential Equations.</font><br/>
 
 
 
