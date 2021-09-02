@@ -7,7 +7,7 @@ permalink: /about/
 Lucy Lin, a devoted and meticulous **Master of Biostatistics** candidate from Duke University with a solid background in mathematics and statistics, enthusiastic about the application of electronic health data in providing better health care to patients. Currently seeking an internship in **Biostatistics/Data Science**. 
 
 ### Education
-**<font size="4" face="Garamond">Duke University, School of Medicine</font>**
+**<font size="6" face="Garamond">Duke University, School of Medicine</font>**
 
 _<font size="4" face="Garamond">Master of Biostatistics &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   Aug,2020 - May, 2022</font>_
 
