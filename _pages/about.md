@@ -15,7 +15,7 @@ _Master of Biostatistics_   Aug,2020 - May, 2022
 
 Relevant courses: Introduction to Statistical Theory and Methods I and II, Applied Biostatistics Methods I and II, Introduction to Practice of Biostatistics I and II, Introduction to Statistical Programming I and II, Software Tools for Data Science.
 
-**Shanghai University of Finance and Economics**
+**<font size="1">Shanghai University of Finance and Economics</font><br />**
 
 _Information and Computing Science_  Sep,2016 - Jun,2020
 
