@@ -264,12 +264,18 @@ This is the longest sum of consecutive primes that adds to a prime below one-hun
 <li>Let k increase k every step until it reaches n, that is, the algorithm loop over k, 2k, 3k,.. and mark these numbers in the list</li>
 <li>Then find the smallest number in the list that is not marked and if no such number exists, the algorithm will stop. Otherwise, set k to the new number and iterate again. </li>
 <li>At the end of the algorithm, all the numbers that are not marked are the prime numbers.<blockquote>
-<p><strong>Example:Find  prime less than 20</strong>&gt; &gt; List all the number that is less than 20:&gt;                     2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20&gt;
-Start with 2, then we mark 2, 4, 6,.. 20
-                                 2, 3, 5, 7, 9, 11, 13, 15, 17, 19</p>
-<p>The next start number is 3, we will mark 9,15
-                                       2, 3, 5, 7, 11, 13, 17, 19
-Then we can see that all the prime numbers less than 20 are listed in the above.</p>
+<p><strong>Example:Find  prime less than 20</strong>&gt; &gt; List all the number that is less than 20:&gt; &gt;                     2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20</p>
+<p>Start with 2, then we mark 2, 4, 6,.. 20</p>
+
+<pre><code>                             2, 3, 5, 7, 9, 11, 13, 15, 17, 19
+
+</code></pre>
+<p>The next start number is 3, we will mark 9,15</p>
+
+<pre><code>                                   2, 3, 5, 7, 11, 13, 17, 19
+
+</code></pre>
+<p>Then we can see that all the prime numbers less than 20 are listed in the above.</p>
 </blockquote>
 </li>
 </ol>
