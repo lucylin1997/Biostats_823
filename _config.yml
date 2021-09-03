@@ -6,7 +6,7 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: LucyLin_Blog
+title: HomePage
 description: This blog is for biostats823, homework assignment solutions
 github_username: lucylin1997
 # you can comment the below line out if your repo name is not different than your baseurl
