@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Final Project | HomePage</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Final Project" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This blog is for biostats823, homework assignment solutions" />
+<meta property="og:description" content="This blog is for biostats823, homework assignment solutions" />
+<link rel="canonical" href="https://lucylin1997.github.io/fastpage_copy/jupyter/2021/11/23/Final-Project-Yili-Lin.html" />
+<meta property="og:url" content="https://lucylin1997.github.io/fastpage_copy/jupyter/2021/11/23/Final-Project-Yili-Lin.html" />
+<meta property="og:site_name" content="HomePage" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-11-23T00:00:00-06:00" />
+<script type="application/ld+json">
+{"description":"This blog is for biostats823, homework assignment solutions","url":"https://lucylin1997.github.io/fastpage_copy/jupyter/2021/11/23/Final-Project-Yili-Lin.html","@type":"BlogPosting","headline":"Final Project","dateModified":"2021-11-23T00:00:00-06:00","datePublished":"2021-11-23T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://lucylin1997.github.io/fastpage_copy/jupyter/2021/11/23/Final-Project-Yili-Lin.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/fastpage_copy/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://lucylin1997.github.io/fastpage_copy/feed.xml" title="HomePage" /><link rel="shortcut icon" type="image/x-icon" href="/fastpage_copy/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/fastpage_copy/">HomePage</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/fastpage_copy/about/">About Me</a><a class="page-link" href="/fastpage_copy/search/">Search</a><a class="page-link" href="/fastpage_copy/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Final Project</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-11-23T00:00:00-06:00" itemprop="datePublished">
+        Nov 23, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/fastpage_copy/categories/#jupyter">jupyter</a>
+        
+      
+      </p>
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/lucylin1997/fastpage_copy/tree/master/_notebooks/2021-11-23-Final Project-Yili Lin.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/fastpage_copy/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/lucylin1997/fastpage_copy/master?filepath=_notebooks%2F2021-11-23-Final+Project-Yili+Lin.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/fastpage_copy/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/lucylin1997/fastpage_copy/blob/master/_notebooks/2021-11-23-Final Project-Yili Lin.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/fastpage_copy/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h2"><a href="#Overview">Overview </a></li>
+<li class="toc-entry toc-h2"><a href="#Dataset">Dataset </a></li>
+<li class="toc-entry toc-h2"><a href="#Problem-Description">Problem Description </a></li>
+<li class="toc-entry toc-h2"><a href="#Data-Product-Introduction">Data Product Introduction </a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#Vaccination-Distribution">Vaccination Distribution </a></li>
+<li class="toc-entry toc-h3"><a href="#Reported-and-Forcasted-Death-Cases">Reported and Forcasted Death Cases </a></li>
+<li class="toc-entry toc-h3"><a href="#Model-Performance">Model Performance </a></li>
+<li class="toc-entry toc-h3"><a href="#Model-Explanation">Model Explanation </a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#Personal-Contribution-and-Reflection">Personal Contribution and Reflection </a></li>
+</ul><!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-11-23-Final Project-Yili Lin.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Overview">
+<a class="anchor" href="#Overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview<a class="anchor-link" href="#Overview"> </a>
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The final project of our group is to build a dashboard providing an overview of several essential aspects of the current COVID-19 situation and provide in-depth analysis of the relationship between the last status of COVID-19 positive patients and their characteristics.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Dataset">
+<a class="anchor" href="#Dataset" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dataset<a class="anchor-link" href="#Dataset"> </a>
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The dataset we use come from the several sources:</p>
+<ul>
+<li>Vaccination data: <a href="https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc">click here</a>
+</li>
+<li>ML model for predicting death or discharge: <a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=89096912#89096912bcab02c187174a288dbcbf95d26179e8">click here</a>
+</li>
+<li>Death Cases Forecasting Data: <a href="https://www.cdc.gov/coronavirus/2019-ncov/science/forecasting/forecasting-us.html">click here</a>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Problem-Description">
+<a class="anchor" href="#Problem-Description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Problem Description<a class="anchor-link" href="#Problem-Description"> </a>
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>All the patients in the clinical dataset are COVID-19 positive and the outcome variable is the last status of the patients (discharged vs. deceased). We want to build a model that can classify the last status of the patients based on their characteristics and compare the performances of different models. In addition, we are also interested in finding which factors contribute more to the prediction. The problem has some clinical meaning in that if we can discover some factors that are related to the last status of those COVID-19 positive patients, the results can give some advice to the clinicians when they provide health care to those patients in hospital. However, the dataset does not include information on whether the patients have taken COVID vaccinations or not and this may also be a related factor. So we provide some data visualizations to help us understand the possible relationship between the number of people who take vaccination and the number of deaths within a state.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Data-Product-Introduction">
+<a class="anchor" href="#Data-Product-Introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Product Introduction<a class="anchor-link" href="#Data-Product-Introduction"> </a>
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The dashboard has four main pages:</p>
+<ul>
+<li>Vaccine distribution</li>
+<li>Reported and forcasted death cases</li>
+<li>Model Performance</li>
+<li>Model Explanation </li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Vaccination-Distribution">
+<a class="anchor" href="#Vaccination-Distribution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Vaccination Distribution<a class="anchor-link" href="#Vaccination-Distribution"> </a>
+</h3>
+<p>This page provides an overview of the vaccination distribution across the US, including the number of people vaccined, the number of taking at least one dose/ fully vaccined/ receving the booster etc. The dropdown list and the date range selector enable the user to choose the time period or the states they are interested in.</p>
+<p><img src="https://github.com/lucylin1997/fastpage_copy/blob/master/images/Vaccine_distribution.jpg?raw=true" alt="vaccine_distribution"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Reported-and-Forcasted-Death-Cases">
+<a class="anchor" href="#Reported-and-Forcasted-Death-Cases" aria-hidden="true"><span class="octicon octicon-link"></span></a>Reported and Forcasted Death Cases<a class="anchor-link" href="#Reported-and-Forcasted-Death-Cases"> </a>
+</h3>
+<p>This page provides the reported deaths and forcasted deaths across the US. The dropdown lists enable the user to select the states and the model that are used to forcast the deaths.</p>
+<p><img src="https://github.com/lucylin1997/fastpage_copy/blob/master/images/forcasted_death.jpg?raw=true" alt="death"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Model-Performance">
+<a class="anchor" href="#Model-Performance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Model Performance<a class="anchor-link" href="#Model-Performance"> </a>
+</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>After the exploratory data analysis, we find that the dataset has some missing value and the class label is imbalanced, so we propose four methods to improve the data quality before training.</p>
+<ul>
+<li>Deleting all the missing value and keeping the imbalanced class</li>
+<li>Deleting all the missing value and oversampling the majority class</li>
+<li>Imputing the missing value and keeping the imbalanced class</li>
+<li>Imputing the missing value and oversampling the majority class</li>
+</ul>
+<p>For the classification model, we used  Ridge Classifier, K Nearest Neighbor, Logistic Regression, Light Gradient Boosting Machine, Linear Discriminant Analysis, Catboost Classifier, Adaboost Classifier, Gradient Boost Classifier, Random Forest Classifier, Extreme Gradient Boosting, Quadratic Boosting Classifier, Extra Tree Classifier, Support Vector Machine, Decision Tree, and Nayes Bayes</p>
+<p>The first plot shows the performances of different models for the same data preprocessing method (the confusion matrix will change when you hover on different model points). Users can choose the evaluation metrics and the data preprocessing methods</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="https://github.com/lucylin1997/fastpage_copy/blob/master/images/model_performance1.png?raw=true" alt="Model Performance"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The second plot shows the performances of the same model for different data preprocessing methods (the corresponding confusion matrix will change when you hover on different preprocessing methods). Users can choose the evaluation metrics and the classifier.</p>
+<p><img src="https://github.com/lucylin1997/fastpage_copy/blob/master/images/Model_performance2.png?raw=true" alt="Model_performance2"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Model-Explanation">
+<a class="anchor" href="#Model-Explanation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Model Explanation<a class="anchor-link" href="#Model-Explanation"> </a>
+</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In order to study the relationship between the relationship between the last status of COVID-19 positive patients and their characteristics, shap value of each features are provided.</p>
+<p><img src="https://github.com/lucylin1997/fastpage_copy/blob/master/images/Model_Explanation.jpg?raw=true" alt="Model Explannation"></p>
+<p>From the above shap plot, we find that the number of calendar days in the facility (length_of_stay) and the number of documented days of invasive ventilation support (invasive_vent_days) were the two biggest contributors to mortality.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Personal-Contribution-and-Reflection">
+<a class="anchor" href="#Personal-Contribution-and-Reflection" aria-hidden="true"><span class="octicon octicon-link"></span></a>Personal Contribution and Reflection<a class="anchor-link" href="#Personal-Contribution-and-Reflection"> </a>
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In this project, I am mainly responsible for:</p>
+<ul>
+<li>Data Preprocessing: creating two new datasets (deleting all the missing values directly/oversampling the minority class)</li>
+<li>Built classification models</li>
+<li>Built the model performance dashboard using <code>Plotly</code>
+</li>
+</ul>
+<p>What I learned from this project:</p>
+<ul>
+<li>Methods to deal with imbalanced data, oversampling the minority class</li>
+<li>Different methods of dealing with the raw data may lead to different model results</li>
+<li>Used <code>plotly</code> to build dashboard for data visualization to help us compare the performances of different models or different methods and it can enable us to report the results to other collaborators more easily</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Key points in the individual work</p>
+<ul>
+<li>Package used to deal with the imbalanced data: <code>imblearn</code><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">imblearn</span>
+<span class="n">X_train_resampled</span><span class="p">,</span> <span class="n">y_train_resampled</span> <span class="o">=</span> <span class="n">imblearn</span><span class="o">.</span><span class="n">over_sampling</span><span class="o">.</span><span class="n">SMOTE</span><span class="p">()</span><span class="o">.</span><span class="n">fit_resample</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+</pre></div>
+</li>
+<li>package used to build the model and save the performances: <code>pycaret</code><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pycaret.classification</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="k">def</span> <span class="nf">comparemodel</span><span class="p">(</span><span class="n">dataset</span><span class="p">):</span>
+  <span class="n">clfs</span> <span class="o">=</span> <span class="n">setup</span><span class="p">(</span>
+         <span class="n">data</span> <span class="o">=</span> <span class="n">dataset</span><span class="p">,</span> 
+         <span class="n">target</span> <span class="o">=</span> <span class="s1">'last.status'</span><span class="p">,</span>
+         <span class="n">silent</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> 
+         <span class="n">session_id</span><span class="o">=</span><span class="mi">1</span><span class="p">,)</span>
+  <span class="n">best_model</span> <span class="o">=</span> <span class="n">compare_models</span><span class="p">(</span><span class="n">sort</span> <span class="o">=</span> <span class="s1">'Accuracy'</span><span class="p">)</span>
+  <span class="n">best_results</span> <span class="o">=</span> <span class="n">pull</span><span class="p">()</span>
+  <span class="k">return</span> <span class="n">best_results</span>
+</pre></div>
+</li>
+<li>packages used to build the dashboard: <code>plotly</code>, <code>dash</code>, below are the codes for generating the dashboard</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data_lucy</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'model_results_final.csv'</span><span class="p">)</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">dash</span><span class="o">.</span><span class="n">Dash</span><span class="p">()</span>
+<span class="n">metric_filter</span> <span class="o">=</span> <span class="n">data_lucy</span><span class="p">[</span><span class="s1">'variable'</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<span class="n">method_filter</span> <span class="o">=</span> <span class="n">data_lucy</span><span class="p">[</span><span class="s1">'Method'</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<span class="n">model_filter</span> <span class="o">=</span> <span class="n">data_lucy</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span>
+<span class="n">app</span><span class="o">.</span><span class="n">layout</span> <span class="o">=</span> <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+    <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+        <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+                <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>      
+                    
+                    <span class="n">html</span><span class="o">.</span><span class="n">H2</span><span class="p">(</span><span class="s1">'Dashboard1: Performance of Classification Model by Methods and Metrics'</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">'#7F90AC'</span><span class="p">)),</span>
+                    <span class="p">],</span> <span class="n">className</span> <span class="o">=</span> <span class="s2">"nine columns padded"</span> <span class="p">)</span>
+            <span class="p">],</span> <span class="n">className</span> <span class="o">=</span> <span class="s1">'row gs-header gs-text-header'</span><span class="p">),</span>
+       <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+
+        <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+            <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+                <span class="nb">id</span><span class="o">=</span><span class="s1">'metric_filter_lucy'</span><span class="p">,</span>
+                <span class="n">options</span><span class="o">=</span><span class="p">[{</span><span class="s1">'label'</span><span class="p">:</span> <span class="n">i</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">:</span> <span class="n">i</span><span class="p">}</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">metric_filter</span><span class="p">],</span>
+                <span class="n">value</span><span class="o">=</span><span class="s1">'Accuracy'</span>
+            <span class="p">)</span>
+        <span class="p">],</span><span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'40%'</span><span class="p">,</span> <span class="s1">'display'</span><span class="p">:</span> <span class="s1">'inline-block'</span><span class="p">,</span><span class="s1">'align-items'</span><span class="p">:</span> <span class="s1">'center'</span><span class="p">,</span><span class="s1">'justify-content'</span><span class="p">:</span> <span class="s1">'center'</span><span class="p">,</span><span class="s1">'margin-left'</span><span class="p">:</span> <span class="s1">'5%'</span><span class="p">}),</span>
+        <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+            <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+                <span class="nb">id</span><span class="o">=</span><span class="s1">'method_filter_lucy'</span><span class="p">,</span>
+                <span class="n">options</span><span class="o">=</span><span class="p">[{</span><span class="s1">'label'</span><span class="p">:</span> <span class="n">i</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">:</span> <span class="n">i</span><span class="p">}</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">method_filter</span><span class="p">],</span>
+                <span class="n">value</span><span class="o">=</span><span class="s1">'Dataset after Deleting all the NAs'</span>
+            <span class="p">)</span>
+        <span class="p">],</span>
+        <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'40%'</span><span class="p">,</span> <span class="s1">'display'</span><span class="p">:</span> <span class="s1">'inline-block'</span><span class="p">,</span><span class="s1">'align-items'</span><span class="p">:</span> <span class="s1">'center'</span><span class="p">,</span><span class="s1">'justify-content'</span><span class="p">:</span> <span class="s1">'center'</span><span class="p">,</span><span class="s1">'margin-left'</span><span class="p">:</span> <span class="s1">'10%'</span><span class="p">})</span>
+    <span class="p">]),</span>
+    <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+        <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+        <span class="n">dcc</span><span class="o">.</span><span class="n">Graph</span><span class="p">(</span>
+            <span class="nb">id</span><span class="o">=</span><span class="s1">'method-filter-scatter_lucy'</span><span class="p">,</span>
+            <span class="n">hoverData</span><span class="o">=</span><span class="p">{</span><span class="s1">'points'</span><span class="p">:</span> <span class="p">[{</span><span class="s1">'customdata'</span><span class="p">:</span> <span class="s1">'Ridge Classifier'</span><span class="p">}]}</span>
+        <span class="p">)],</span><span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'49%'</span><span class="p">,</span> <span class="s1">'display'</span><span class="p">:</span> <span class="s1">'inline-block'</span><span class="p">,</span> <span class="s1">'padding'</span><span class="p">:</span> <span class="s1">'0 20'</span><span class="p">}),</span>
+        <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+        <span class="n">dcc</span><span class="o">.</span><span class="n">Graph</span><span class="p">(</span>
+            <span class="nb">id</span> <span class="o">=</span> <span class="s1">'confusion_matrix1_lucy'</span><span class="p">)</span>
+    <span class="p">],</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'49%'</span><span class="p">,</span> <span class="s1">'display'</span><span class="p">:</span> <span class="s1">'inline-block'</span><span class="p">,</span> <span class="s1">'padding'</span><span class="p">:</span> <span class="s1">'0 20'</span><span class="p">})</span>
+    <span class="p">])</span>
+    <span class="p">],</span><span class="n">className</span> <span class="o">=</span> <span class="s1">'page'</span><span class="p">),</span>
+    <span class="c1"># Page 2</span>
+     <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+        <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+                <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>      
+                    
+                    <span class="n">html</span><span class="o">.</span><span class="n">H2</span><span class="p">(</span><span class="s1">'Dashboard2: Performance of Classification Model by Models and Metrics'</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">'#7F90AC'</span><span class="p">)),</span>
+                    <span class="p">],</span> <span class="n">className</span> <span class="o">=</span> <span class="s2">"nine columns padded"</span> <span class="p">)</span>
+            <span class="p">],</span> <span class="n">className</span> <span class="o">=</span> <span class="s1">'row gs-header gs-text-header'</span><span class="p">),</span>
+       <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+         <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+            <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+                <span class="nb">id</span><span class="o">=</span><span class="s1">'metric_filter1_lucy'</span><span class="p">,</span>
+                <span class="n">options</span><span class="o">=</span><span class="p">[{</span><span class="s1">'label'</span><span class="p">:</span> <span class="n">i</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">:</span> <span class="n">i</span><span class="p">}</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">metric_filter</span><span class="p">],</span>
+                <span class="n">value</span><span class="o">=</span><span class="s1">'Accuracy'</span>
+            <span class="p">)</span>
+            <span class="p">],</span><span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'40%'</span><span class="p">,</span> <span class="s1">'display'</span><span class="p">:</span> <span class="s1">'inline-block'</span><span class="p">,</span><span class="s1">'margin-left'</span><span class="p">:</span> <span class="s1">'5%'</span><span class="p">}),</span>
+         <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+            <span class="n">dcc</span><span class="o">.</span><span class="n">Dropdown</span><span class="p">(</span>
+                <span class="nb">id</span><span class="o">=</span><span class="s1">'model_filter_lucy'</span><span class="p">,</span>
+                <span class="n">options</span><span class="o">=</span><span class="p">[{</span><span class="s1">'label'</span><span class="p">:</span> <span class="n">i</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">:</span> <span class="n">i</span><span class="p">}</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">model_filter</span><span class="p">],</span>
+                <span class="n">value</span><span class="o">=</span><span class="s1">'Ridge Classifier'</span><span class="p">,</span>
+            <span class="p">)</span>
+            <span class="p">],</span><span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'40%'</span><span class="p">,</span> <span class="s1">'display'</span><span class="p">:</span> <span class="s1">'inline-block'</span><span class="p">,</span><span class="s1">'margin-left'</span><span class="p">:</span> <span class="s1">'10%'</span><span class="p">}</span> <span class="p">)</span>
+        
+    <span class="p">]),</span>
+    <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+        <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+        <span class="n">dcc</span><span class="o">.</span><span class="n">Graph</span><span class="p">(</span>
+            <span class="nb">id</span><span class="o">=</span><span class="s1">'model-filter-scatter_lucy'</span><span class="p">,</span>
+            <span class="n">hoverData</span><span class="o">=</span><span class="p">{</span><span class="s1">'points'</span><span class="p">:</span> <span class="p">[{</span><span class="s1">'customdata'</span><span class="p">:</span><span class="s1">'Dataset after Deleting all the NAs'</span><span class="p">}]}</span>
+        <span class="p">)</span>
+        <span class="p">],</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'49%'</span><span class="p">,</span> <span class="s1">'display'</span><span class="p">:</span> <span class="s1">'inline-block'</span><span class="p">,</span><span class="s1">'align-items'</span><span class="p">:</span> <span class="s1">'center'</span><span class="p">,</span><span class="s1">'justify-content'</span><span class="p">:</span> <span class="s1">'center'</span><span class="p">}),</span>
+        <span class="n">html</span><span class="o">.</span><span class="n">Div</span><span class="p">([</span>
+        <span class="n">dcc</span><span class="o">.</span><span class="n">Graph</span><span class="p">(</span>
+            <span class="nb">id</span><span class="o">=</span><span class="s1">'confusion_matrix_lucy'</span>
+        <span class="p">)</span>
+        <span class="p">],</span> <span class="n">style</span><span class="o">=</span><span class="p">{</span><span class="s1">'width'</span><span class="p">:</span> <span class="s1">'49%'</span><span class="p">,</span> <span class="s1">'display'</span><span class="p">:</span> <span class="s1">'inline-block'</span><span class="p">,</span>  <span class="s1">'align-items'</span><span class="p">:</span> <span class="s1">'center'</span><span class="p">,</span><span class="s1">'justify-content'</span><span class="p">:</span> <span class="s1">'center'</span><span class="p">})</span>
+    <span class="p">])</span>
+    <span class="p">],</span><span class="n">className</span> <span class="o">=</span> <span class="s1">'page'</span><span class="p">),</span>
+<span class="p">])</span>
+<span class="nd">@app</span><span class="o">.</span><span class="n">callback</span><span class="p">(</span>
+    <span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Output</span><span class="p">(</span><span class="s1">'method-filter-scatter_lucy'</span><span class="p">,</span> <span class="s1">'figure'</span><span class="p">),</span>
+    <span class="p">[</span><span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Input</span><span class="p">(</span><span class="s1">'method_filter_lucy'</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">),</span>
+     <span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Input</span><span class="p">(</span><span class="s1">'metric_filter_lucy'</span><span class="p">,</span><span class="s1">'value'</span><span class="p">)]</span>
+    <span class="p">)</span> 
+<span class="k">def</span> <span class="nf">update_graph1</span><span class="p">(</span><span class="n">selected_methods</span><span class="p">,</span><span class="n">selected_metrics</span><span class="p">):</span>
+    <span class="n">filtered_df</span> <span class="o">=</span> <span class="n">data_lucy</span><span class="p">[(</span><span class="n">data_lucy</span><span class="p">[</span><span class="s1">'variable'</span><span class="p">]</span> <span class="o">==</span> <span class="n">selected_metrics</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">data_lucy</span><span class="p">[</span><span class="s1">'Method'</span><span class="p">]</span> <span class="o">==</span> <span class="n">selected_methods</span><span class="p">)]</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s1">'data'</span><span class="p">:[</span><span class="n">go_lucy</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+           <span class="n">x</span> <span class="o">=</span> <span class="n">filtered_df</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">],</span>
+           <span class="n">y</span> <span class="o">=</span> <span class="n">filtered_df</span><span class="p">[</span><span class="s1">'value'</span><span class="p">],</span>
+           <span class="n">text</span> <span class="o">=</span> <span class="n">filtered_df</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">],</span>
+           <span class="n">customdata</span> <span class="o">=</span> <span class="n">filtered_df</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span>
+           <span class="c1">#marker_color=colors</span>
+        <span class="p">)],</span>
+        <span class="s1">'layout'</span><span class="p">:</span> <span class="n">go_lucy</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span>
+           
+           <span class="n">yaxis</span><span class="o">=</span><span class="p">{</span>
+               <span class="s1">'title'</span><span class="p">:</span> <span class="s1">'Score'</span>
+           <span class="p">},</span>
+           <span class="n">height</span> <span class="o">=</span> <span class="mi">450</span><span class="p">,</span>
+           <span class="n">hovermode</span> <span class="o">=</span> <span class="s1">'closest'</span><span class="p">,</span>
+           <span class="n">title</span> <span class="o">=</span> <span class="s1">'&lt;b&gt;Performance of Classifier&lt;b&gt;'</span>
+        <span class="p">)</span>
+    <span class="p">}</span>
+
+<span class="k">def</span> <span class="nf">create_cm</span><span class="p">(</span><span class="n">dff</span><span class="p">):</span>
+    <span class="n">dff</span> <span class="o">=</span> <span class="n">dff</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">'Method'</span><span class="p">,</span><span class="s1">'Model'</span><span class="p">,</span><span class="s1">'variable'</span><span class="p">,</span><span class="s1">'value'</span><span class="p">],</span><span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">int</span><span class="p">)</span>
+    <span class="n">matrix</span> <span class="o">=</span> <span class="n">dff</span><span class="o">.</span><span class="n">values</span>
+    <span class="n">arr</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">matrix</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">arr</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">matrix</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">arr</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">matrix</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">arr</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">matrix</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'deceased'</span><span class="p">,</span><span class="s1">'discharged'</span><span class="p">]</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'deceased'</span><span class="p">,</span><span class="s1">'discharged'</span><span class="p">]</span>
+    <span class="n">z_text</span> <span class="o">=</span> <span class="p">[[</span><span class="nb">str</span><span class="p">(</span><span class="n">y</span><span class="p">)</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">x</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">arr</span><span class="p">]</span>
+    <span class="n">fig</span> <span class="o">=</span> <span class="n">ff_lucy</span><span class="o">.</span><span class="n">create_annotated_heatmap</span><span class="p">(</span><span class="n">arr</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">annotation_text</span><span class="o">=</span><span class="n">z_text</span><span class="p">,</span> <span class="n">colorscale</span><span class="o">=</span><span class="p">[</span><span class="s1">'aliceblue'</span><span class="p">,</span><span class="s1">'aqua'</span><span class="p">,</span><span class="s1">'aquamarine'</span><span class="p">,</span><span class="s1">'darkturquoise'</span><span class="p">])</span>
+    <span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span><span class="n">title_text</span><span class="o">=</span><span class="s1">'&lt;i&gt;&lt;b&gt;Confusion matrix&lt;/b&gt;&lt;/i&gt;'</span><span class="p">,</span>
+                  <span class="c1">#xaxis = dict(title='x'),</span>
+                  <span class="c1">#yaxis = dict(title='x')</span>
+                 <span class="p">)</span>
+    <span class="k">return</span> <span class="n">fig</span>
+<span class="nd">@app</span><span class="o">.</span><span class="n">callback</span><span class="p">(</span>
+    <span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Output</span><span class="p">(</span><span class="s1">'confusion_matrix1_lucy'</span><span class="p">,</span> <span class="s1">'figure'</span><span class="p">),</span>
+    <span class="p">[</span><span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Input</span><span class="p">(</span><span class="s1">'method_filter_lucy'</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">),</span>
+     <span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Input</span><span class="p">(</span><span class="s1">'method-filter-scatter_lucy'</span><span class="p">,</span><span class="s1">'hoverData'</span><span class="p">)</span>
+    <span class="p">])</span> 
+<span class="k">def</span> <span class="nf">update_cm_graph</span><span class="p">(</span><span class="n">selected_methods</span><span class="p">,</span><span class="n">hoverData</span><span class="p">):</span>
+    <span class="n">model_name</span> <span class="o">=</span> <span class="n">hoverData</span><span class="p">[</span><span class="s1">'points'</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">'customdata'</span><span class="p">]</span>
+    <span class="n">dff</span> <span class="o">=</span> <span class="n">data_lucy</span><span class="p">[(</span><span class="n">data_lucy</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span> <span class="o">==</span> <span class="n">model_name</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">data_lucy</span><span class="p">[</span><span class="s1">'Method'</span><span class="p">]</span> <span class="o">==</span> <span class="n">selected_methods</span><span class="p">)]</span>
+    <span class="k">return</span> <span class="n">create_cm</span><span class="p">(</span><span class="n">dff</span><span class="p">)</span>
+    
+<span class="nd">@app</span><span class="o">.</span><span class="n">callback</span><span class="p">(</span>
+    <span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Output</span><span class="p">(</span><span class="s1">'model-filter-scatter_lucy'</span><span class="p">,</span> <span class="s1">'figure'</span><span class="p">),</span>
+    <span class="p">[</span><span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Input</span><span class="p">(</span><span class="s1">'model_filter_lucy'</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">),</span>
+     <span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Input</span><span class="p">(</span><span class="s1">'metric_filter1_lucy'</span><span class="p">,</span><span class="s1">'value'</span><span class="p">)]</span>
+    <span class="p">)</span> 
+<span class="k">def</span> <span class="nf">update_graph</span><span class="p">(</span><span class="n">selected_models</span><span class="p">,</span><span class="n">selected_metrics</span><span class="p">):</span>
+    <span class="n">filtered_df</span> <span class="o">=</span> <span class="n">data_lucy</span><span class="p">[(</span><span class="n">data_lucy</span><span class="p">[</span><span class="s1">'variable'</span><span class="p">]</span> <span class="o">==</span> <span class="n">selected_metrics</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">data_lucy</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span> <span class="o">==</span> <span class="n">selected_models</span><span class="p">)]</span>
+    <span class="k">return</span> <span class="p">{</span>
+        <span class="s1">'data'</span><span class="p">:[</span><span class="n">go_lucy</span><span class="o">.</span><span class="n">Scatter</span><span class="p">(</span>
+           <span class="n">x</span> <span class="o">=</span> <span class="n">filtered_df</span><span class="p">[</span><span class="s1">'Method'</span><span class="p">],</span>
+           <span class="n">y</span> <span class="o">=</span> <span class="n">filtered_df</span><span class="p">[</span><span class="s1">'value'</span><span class="p">],</span>
+           <span class="n">text</span> <span class="o">=</span> <span class="n">filtered_df</span><span class="p">[</span><span class="s1">'Method'</span><span class="p">],</span>
+           <span class="n">customdata</span> <span class="o">=</span> <span class="n">filtered_df</span><span class="p">[</span><span class="s1">'Method'</span><span class="p">]</span>
+           <span class="c1">#marker_color=colors</span>
+        <span class="p">)],</span>
+        <span class="s1">'layout'</span><span class="p">:</span> <span class="n">go_lucy</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span>
+           
+           <span class="n">yaxis</span><span class="o">=</span><span class="p">{</span>
+               <span class="s1">'title'</span><span class="p">:</span> <span class="s1">'Data_Preprocessing_Method '</span>
+           <span class="p">},</span>
+           <span class="n">height</span> <span class="o">=</span> <span class="mi">450</span><span class="p">,</span>
+           <span class="n">hovermode</span> <span class="o">=</span> <span class="s1">'closest'</span><span class="p">,</span>
+           <span class="n">title</span> <span class="o">=</span> <span class="s1">'&lt;b&gt;Performance of Data Preprocessing Method&lt;b&gt;'</span>
+        <span class="p">)</span>
+    <span class="p">}</span>
+<span class="nd">@app</span><span class="o">.</span><span class="n">callback</span><span class="p">(</span>
+    <span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Output</span><span class="p">(</span><span class="s1">'confusion_matrix_lucy'</span><span class="p">,</span> <span class="s1">'figure'</span><span class="p">),</span>
+    <span class="p">[</span><span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Input</span><span class="p">(</span><span class="s1">'model_filter_lucy'</span><span class="p">,</span> <span class="s1">'value'</span><span class="p">),</span>
+     <span class="n">dash</span><span class="o">.</span><span class="n">dependencies</span><span class="o">.</span><span class="n">Input</span><span class="p">(</span><span class="s1">'model-filter-scatter_lucy'</span><span class="p">,</span><span class="s1">'hoverData'</span><span class="p">)</span>
+    <span class="p">])</span> 
+<span class="k">def</span> <span class="nf">update_cm_graph</span><span class="p">(</span><span class="n">selected_models</span><span class="p">,</span><span class="n">hoverData</span><span class="p">):</span>
+    <span class="n">model_name</span> <span class="o">=</span> <span class="n">hoverData</span><span class="p">[</span><span class="s1">'points'</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s1">'customdata'</span><span class="p">]</span>
+    <span class="n">dff</span> <span class="o">=</span> <span class="n">data_lucy</span><span class="p">[(</span><span class="n">data_lucy</span><span class="p">[</span><span class="s1">'Method'</span><span class="p">]</span> <span class="o">==</span> <span class="n">model_name</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">data_lucy</span><span class="p">[</span><span class="s1">'Model'</span><span class="p">]</span> <span class="o">==</span> <span class="n">selected_models</span><span class="p">)]</span>
+    <span class="k">return</span> <span class="n">create_cm</span><span class="p">(</span><span class="n">dff</span><span class="p">)</span>
+    
+<span class="n">app</span><span class="o">.</span><span class="n">css</span><span class="o">.</span><span class="n">append_css</span><span class="p">({</span>
+    <span class="s1">'external_url'</span><span class="p">:</span> <span class="s1">'https://codepen.io/chriddyp/pen/bWLwgP.css'</span>
+<span class="p">})</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">'__main__'</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run_server</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="lucylin1997/fastpage_copy"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/fastpage_copy/jupyter/2021/11/23/Final-Project-Yili-Lin.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/fastpage_copy/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/fastpage_copy/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/fastpage_copy/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>This blog is for biostats823, homework assignment solutions</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/fastpage_copy/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/fastpage_copy/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
